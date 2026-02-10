@@ -47,15 +47,23 @@ brew install mpv socat
 
 ## Установка
 
-```bash
-# Клонируй плагин
-git clone https://github.com/user/claude-typing-ambient.git
+### Через маркетплейс (рекомендуется)
 
-# Запусти Claude Code с плагином
-claude --plugin-dir ./claude-typing-ambient
+В Claude Code выполни:
+
+```
+/plugin marketplace add howdeploy/Claude-typing-ambient
+/plugin install claude-typing-ambient@howdeploy-plugins
 ```
 
-**Важно:** перезапусти Claude Code после установки, чтобы хуки подхватились.
+Перезапусти Claude Code после установки.
+
+### Вручную
+
+```bash
+git clone https://github.com/howdeploy/Claude-typing-ambient.git
+claude --plugin-dir ./Claude-typing-ambient
+```
 
 Всё. Отправь любое сообщение Claude и услышишь печать.
 

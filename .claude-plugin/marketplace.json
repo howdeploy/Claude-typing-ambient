@@ -1,0 +1,21 @@
+{
+  "name": "howdeploy-plugins",
+  "owner": {
+    "name": "howdeploy"
+  },
+  "metadata": {
+    "description": "Claude Code plugins by howdeploy",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "claude-typing-ambient",
+      "description": "Ambient mechanical keyboard typing sounds while Claude Code works",
+      "version": "1.0.0",
+      "author": { "name": "howdeploy" },
+      "source": ".",
+      "category": "productivity",
+      "tags": ["typing", "ambient", "keyboard", "sounds", "mechanical", "asmr"]
+    }
+  ]
+}

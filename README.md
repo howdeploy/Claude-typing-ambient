@@ -47,15 +47,23 @@ brew install mpv socat
 
 ## Installation
 
-```bash
-# Clone the plugin
-git clone https://github.com/user/claude-typing-ambient.git
+### From Marketplace (Recommended)
 
-# Launch Claude Code with the plugin
-claude --plugin-dir ./claude-typing-ambient
+In Claude Code, run:
+
+```
+/plugin marketplace add howdeploy/Claude-typing-ambient
+/plugin install claude-typing-ambient@howdeploy-plugins
 ```
 
-**Important:** Restart Claude Code after installation for hooks to take effect.
+Restart Claude Code after installation.
+
+### Manual
+
+```bash
+git clone https://github.com/howdeploy/Claude-typing-ambient.git
+claude --plugin-dir ./Claude-typing-ambient
+```
 
 That's it. Send any message to Claude and you'll hear typing.
 

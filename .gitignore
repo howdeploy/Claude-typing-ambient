@@ -1,0 +1,17 @@
+# Raw source recordings (your personal recordings for re-slicing)
+raw/*.ogg
+raw/*.wav
+
+# Runtime state
+var/
+
+# Local config overrides
+*.local.md
+
+# Local Claude Code settings (contains absolute paths)
+.claude/hooks.json
+.claude/settings.local.json
+
+# OS junk
+.DS_Store
+Thumbs.db

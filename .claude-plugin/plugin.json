@@ -1,0 +1,7 @@
+{
+  "name": "claude-typing-ambient",
+  "version": "1.0.0",
+  "description": "Ambient mechanical keyboard typing sounds while Claude works",
+  "author": { "name": "kosya" },
+  "keywords": ["typing", "ambient", "keyboard", "sounds", "mechanical", "asmr"]
+}

@@ -13,7 +13,10 @@
       "description": "Ambient mechanical keyboard typing sounds while Claude Code works",
       "version": "1.0.0",
       "author": { "name": "howdeploy" },
-      "source": ".",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/howdeploy/Claude-typing-ambient.git"
+      },
       "category": "productivity",
       "tags": ["typing", "ambient", "keyboard", "sounds", "mechanical", "asmr"]
     }

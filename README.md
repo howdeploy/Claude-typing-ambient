@@ -49,6 +49,8 @@ brew install mpv socat
 
 ### From Marketplace (Recommended)
 
+Marketplace installation works **globally across all sessions and projects** — no extra setup needed.
+
 In Claude Code, run:
 
 ```
@@ -56,16 +58,24 @@ In Claude Code, run:
 /plugin install claude-typing-ambient@howdeploy-plugins
 ```
 
-Restart Claude Code after installation.
+Restart Claude Code after installation. The plugin is now active in every session.
 
-### Manual
+To manage the plugin later:
+
+```bash
+claude plugin disable claude-typing-ambient   # turn off
+claude plugin enable claude-typing-ambient    # turn back on
+claude plugin update claude-typing-ambient    # update to latest
+```
+
+### Manual (single session)
 
 ```bash
 git clone https://github.com/howdeploy/Claude-typing-ambient.git
 claude --plugin-dir ./Claude-typing-ambient
 ```
 
-That's it. Send any message to Claude and you'll hear typing.
+> **Note:** `--plugin-dir` loads the plugin **for the current session only**. You need to pass this flag every time you start Claude Code. For persistent use, install via the marketplace instead.
 
 ## Configuration
 
